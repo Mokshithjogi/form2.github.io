@@ -1,0 +1,24 @@
+.sd{
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: yellow;
+     font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 50px;
+}
+legend{
+    font-size: 15px;
+    color: rgb(230, 12, 12);
+}
+
+#one
+{
+    margin-left: 420px;
+    width: 80px;
+
+}
+
+#one:hover{
+    background-color:aqua;
+    color: blue;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Form2</title>
+
+    <link rel="stylesheet" href="form2.css">
+
+</head>
+<body  style="background-color: #f5f2ea;">
+    <form action="Message.html">
+
+        <fieldset class="sd">
+       <legend><h1>PERSONAL DETAILS</h1></legend>
+
+<label for="fname">First Name*</label>
+&nbsp;
+<input type="text" required id="fname" name="fname">
+<br><br>
+<label for="Mname">Middle Name</label>
+
+<input type="text" id="Mname" name="Mname">
+<br><br>
+<label for="lname">last Name</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="lname" name="lname">
+<br><br>
+<label for="email">Email</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="email" required id="email" name="email">
+<br><br>
+<label for="dob">DOB</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="date" id="dob" name="dob">
+<br><br>
+
+</fieldset>
+
+<fieldset class="sd">
+    <legend><h1>EDUCATIONAL DETAILS</h1></legend>
+    <label for="">Department</label>
+     <br><br>
+    <input type="radio" id="cs" name="dept">
+    <label for="cs">cs</label>
+
+    <input type="radio" id="ec" name="dept">
+    <label for="ec">ec</label>
+
+    <input type="radio" id="mech" name="dept">
+    <label for="mech">mech</label>
+<br><br>
+    <label for="yop">YOG</label>
+    <input list="yog" id="yop" name="yog">
+    <datalist id="yog">
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+        <option>2024</option>
+    </datalist>
+<br><br>
+       <label for="">SKILLS</label>
+      <br><br>
+      <input type="checkbox" id="HTML" name="skills">
+      <label for="">HTML</label>
+      <br><br>
+
+      <input type="checkbox" id="CSS" name="skills">
+      <label for="">CSS</label>
+      <br><br>
+      <input type="checkbox" id="JAVASCRIPT" name="skills">
+      <label for="">JAVASCRIPT</label>
+      <br><br>
+    
+</fieldset>
+<input type="SUBMIT" id="one">
+
+<!-- <a href="Message.html" target="_blank">submit</a> -->
+    </form>
+</body>
+</html>
